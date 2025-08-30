@@ -22,7 +22,7 @@ export const videoApi = {
           headers: {
             'Content-Type': 'multipart/form-data',
           },
-          timeout: 300000, // 5 минут таймаут для длительной операции
+          timeout: 1200000, // 20 минут
         }
       );
 
